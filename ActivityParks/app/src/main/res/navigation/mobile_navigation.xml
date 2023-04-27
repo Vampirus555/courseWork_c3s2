@@ -22,4 +22,37 @@
         android:name="com.example.activityparks.ui.activities.ActivitiesFragment"
         android:label="@string/menu_activities"
         tools:layout="@layout/fragment_activities" />
+
+    <activity
+        android:id="@+id/authRegActivity"
+        android:name="com.example.activityparks.AuthRegActivity"
+        android:label="@string/menu_authReg"
+        tools:layout="@layout/activity_auth_reg" />
+
+    <fragment
+        android:id="@+id/logoutFragment"
+        android:name="com.example.activityparks.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.example.activityparks.ui.notes.NotesFragment"
+        android:label="@string/menu_notes"
+        tools:layout="@layout/fragment_notes" />
+
+    <fragment
+        android:id="@+id/authorFragment"
+        android:name="com.example.activityparks.ui.author.AuthorFragment"
+        android:label="@string/menu_author"
+        tools:layout="@layout/fragment_author" />
+
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.activityparks.ui.info.InfoFragment"
+        android:label="@string/menu_info"
+        tools:layout="@layout/fragment_info" />
+
+
+
 </navigation>

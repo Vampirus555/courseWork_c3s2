@@ -1,9 +1,12 @@
-package com.example.activityparks;
+package com.example.activityparks.ui.Adapters;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
+
+import com.example.activityparks.ui.auth_reg.Auth_Fragment;
+import com.example.activityparks.ui.auth_reg.Reg_Fragment;
 
 public class AuthRegAdapter extends FragmentStateAdapter {
     public AuthRegAdapter(FragmentActivity fragmentActivity){
