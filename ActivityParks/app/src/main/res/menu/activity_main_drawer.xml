@@ -43,11 +43,11 @@
         <menu>
             <item
                 android:id="@+id/authorFragment"
-                android:icon="@drawable/ic_home"
+                android:icon="@drawable/baseline_person"
                 android:title="@string/menu_author" />
             <item
                 android:id="@+id/infoFragment"
-                android:icon="@drawable/ic_home"
+                android:icon="@drawable/baseline_info"
                 android:title="@string/menu_info" />
         </menu>
 

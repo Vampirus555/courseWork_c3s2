@@ -25,7 +25,7 @@
     <string name="menu_main">Главная</string>
     <string name="menu_parks">Парки г.Москва</string>
     <string name="menu_activities">События в парках</string>
-    <string name="menu_authReg">Войти/зарегестрироваться</string>
+    <string name="menu_authReg">Вход</string>
     <string name="menu_logout">Выход</string>
     <string name="menu_notes">Мои заметки</string>
     <string name="menu_author">Об авторе</string>
@@ -37,4 +37,9 @@
 
     <string name="login_label">Логин</string>
     <string name="password_label">Пароль</string>
+
+
+    <string name="home_search_hint">Введите название парка...</string>
+
+
 </resources>
